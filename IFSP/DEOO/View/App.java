@@ -12,6 +12,7 @@ public class App {
 
         User pedro = new User("PedroNonato", "pedro.marrara.nonato@gmail.com", "pedro123");
         User leo = new User("Leonardo", "leo.leo@hotmail.com", "leo123");
+        User git = new User("github", "githubemail", "senha");
 
         boolean addUserPedro = userdao.insertUser(pedro);
         boolean addUserLeo = userdao.insertUser(leo);
